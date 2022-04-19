@@ -38,7 +38,7 @@ namespace HomeWork2
             int i = 0;
             while(i <nwDataSet1.Categories[0].Table.Rows.Count)
             {
-                comboBox1.Items.Add(nwDataSet1.Categories[0].Table.Rows[i]["categoryname"].ToString());
+                comboBox1.Items.Add(nwDataSet1.Categories.Rows[i]["categoryname"].ToString());
                 i++;
             }
            
